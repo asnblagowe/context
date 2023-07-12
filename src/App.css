@@ -1,0 +1,84 @@
+/* ! cards starts */
+.list {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card-details h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-details p {
+  margin: 0;
+  font-size: 16px;
+  color: #888;
+}
+/* ! cards ends */
+
+/* ! add starts */
+.add {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.add input {
+  width: 50%;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  border: none;
+  padding-left: 5px;
+  height: 30px;
+  color: white;
+}
+.add input::placeholder {
+  color: #ffffff;
+}
+.add button {
+  width: 50%;
+  border-radius: 6px;
+  border: none;
+  padding-left: 5px;
+  height: 30px;
+  color: white;
+}
+/* ! add ends */
+.delete {
+  transition: 0.2s;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+.delete:hover {
+  color: red;
+}
+.edit {
+  transition: 0.2s;
+  font-size: larger;
+  position: absolute;
+  right: 40px;
+  bottom: 8px;
+}
+.edit:hover {
+  color: rgb(0, 255, 13);
+}

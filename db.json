@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Anna",
+      "lastName": "Vasilevna",
+      "age": 10,
+      "img": "123",
+      "number": 123456789
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "lastName": "Doe",
+      "age": 25,
+      "img": "23",
+      "number": "987"
+    },
+    {
+      "id": 3,
+      "name": "Emily",
+      "lastName": "Smith",
+      "age": 32,
+      "img": "https://example.com/emily.jpg",
+      "number": 555555555
+    },
+    {
+      "id": 4,
+      "name": "Michael",
+      "lastName": "Johnson",
+      "age": 42,
+      "img": "https://example.com/michael.jpg",
+      "number": 777777777
+    },
+    {
+      "id": 5,
+      "name": "Sophia",
+      "lastName": "Brown",
+      "age": 19,
+      "img": "https://example.com/sophia.jpg",
+      "number": 999999999
+    },
+    {
+      "id": 6,
+      "name": "David",
+      "lastName": "Wilson",
+      "age": 36,
+      "img": "https://example.com/david.jpg",
+      "number": 111111111
+    },
+    {
+      "id": 7,
+      "name": "Olivia",
+      "lastName": "Taylor",
+      "age": 28,
+      "img": "https://example.com/olivia.jpg",
+      "number": 444444444
+    },
+    {
+      "id": 8,
+      "name": "Daniel",
+      "lastName": "Anderson",
+      "age": 53,
+      "img": "https://example.com/daniel.jpg",
+      "number": 222222222
+    },
+    {
+      "id": 9,
+      "name": "Ava",
+      "lastName": "Martin",
+      "age": 14,
+      "img": "https://example.com/ava.jpg",
+      "number": 888888888
+    }
+  ]
+}
